@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Core Web Vitals</title>
+    </head>
+    <body>
+        <h1>CORE WEB VITALS</h1>
+        <dl>
+            <dt><b>CLS</b></dt>
+            <dd>
+                <u>Cumulative Layout Shift</u> (CLS) is a key Core Web Vitals
+                metric that measures a webpage's visual stability by calculating
+                unexpected layout movements during page load. A low CLS
+                guarantees a disruption-free user experience, preventing users
+                from accidentally clicking wrong buttons or losing their reading
+                place.
+                <h4><b>The CLS Score</b></h4>
+                CLS is a unitless value representing how much visible content
+                shifts and how far it moves. Google classifies scores based on
+                real-world user data over a 75th percentile of page visits:
+                <br /><b>Good:</b> ≤ 0.1 <br /><b> Needs Improvement:</b> > 0.1
+                and ≤ 0.25 <br /><b> Poor: > 0.25</b>
+            </dd>
+            <dt>
+                <br />
+                <b>LCP</b>
+            </dt>
+            <dd>
+                <u>Largest Contentful Paint</u> (LCP) is a Core Web Vital that
+                measures perceived load speed by marking the render time of the
+                largest image or text block visible in the viewport. A good LCP
+                score is 2.5 seconds or less from the moment the user navigates
+                to the page.<br />Achieving a fast LCP directly affects search
+                engine rankings and significantly lowers bounce rates. When a
+                page loads, the browser continuously evaluates elements as they
+                appear on the screen to determine the largest one.<br />
+                <h4><b>LCP Score Thresholds</b></h4>
+                <b>Good:</b> 2.5 seconds or less <br /><b>Needs Improvement:</b>
+                Between 2.5 and 4.0 seconds <br /><b>Poor:</b> Over 4.0 seconds
+            </dd>
+            <dt><br /><b>FID </b></dt>
+            <dd>
+                <u>First Input Delay</u> (FID) is a former Google Core Web Vital
+                metric that measured web page responsiveness and interactivity.
+                Specifically, it quantified the time from when a user first
+                interacted with a web page (e.g., clicking a link or tapping a
+                button) to the time when the browser was actually able to begin
+                processing event handlers in response to that interaction.<br />
+                <h4><b>How FID was Scored</b></h4>
+                <b>Good:</b> 100 ms or less <br /><b>Needs Improvement:</b>
+                Between 100 ms and 300 ms <br /><b>Poor:</b> Over 300 ms
+            </dd>
+        </dl>
+    </body>
+</html>
