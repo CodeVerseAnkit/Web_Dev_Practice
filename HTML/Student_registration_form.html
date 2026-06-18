@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Student Registration Form</title>
+    </head>
+    <body>
+        <h1>
+            <u> STUDENT REGISTRATION FORM</u>
+        </h1>
+        <form>
+            <!-- User Name-->
+            <label for="username">Enter Name: </label>
+            <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Enter Your Name"
+            />
+            <br /><br />
+            <!-- Phone Number -->
+            <label for="phoneno">Phone no.: </label>
+            <input
+                type="number"
+                id="phoneno"
+                name="phoneno"
+                placeholder="Enter Your Phone Number"
+            /><br /><br />
+            <!-- User Email -->
+            <label for="useremail">Enter Email: </label>
+            <input
+                type="email"
+                id="useremail"
+                name="useremail"
+                placeholder="Enter Your Email"
+            />
+            <br /><br />
+            <!-- Password -->
+            <label for="password">Enter Password: </label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter Your password"
+            />
+            <br /><br />
+            <!-- Gender -->
+            <label for="gender">Gender: </label>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+            <input type="radio" id="others" name="gender" value="others" />
+            <label for="others">Others</label>
+            <br /><br />
+            <!-- Course -->
+            <label for="course">Select Course: </label>
+            <select name="course">
+                <option value="bca">Bca</option>
+                <option value="bsc">Bsc</option>
+                <option value="btech">BTech</option>
+                <option value="bcom">BCom</option>
+            </select>
+            <br /><br />
+            <!-- Your Skills-->
+            <label for="skills">Your Skills: </label>
+            <input type="checkbox" id="c" name="skills" value="c" />
+            <label for="c">C</label>
+            <input type="checkbox" id="cpp" name="skills" value="cpp" />
+            <label for="cpp">C++</label>
+            <input type="checkbox" id="html" name="skills" value="html" />
+            <label for="html">Html</label>
+
+            <input type="checkbox" id="css" name="skills" value="css" />
+            <label for="css">Css</label>
+            <input
+                type="checkbox"
+                id="javascript"
+                name="skills"
+                value="javascript"
+            />
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" id="java" name="skills" value="java" />
+            <label for="java">Java</label>
+            <input type="checkbox" id="python" name="skills" value="python" />
+            <label for="python">Python</label>
+            <br /><br />
+            <!-- Address -->
+            <label for="address">Enter Address</label>
+            <textarea rows="2" cols="20"></textarea>
+            <br /><br />
+            <!-- Submit -->
+            <label for="submit">submit Your Form </label>
+            <input
+                type="submit"
+                name="submit"
+                value="Registration"
+                onclick="alert('Student Registered Successfully')"
+            />
+        </form>
+    </body>
+</html>
