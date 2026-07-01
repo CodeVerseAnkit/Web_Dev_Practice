@@ -1,0 +1,36 @@
+/* CSS Selectors */
+h1 {
+    color: red;
+    background-color: yellow;
+}
+.red {
+    background-color: red;
+}
+#green {
+    background-color: green;
+}
+div > p.p {
+    color: blue;
+    background-color: red;
+}
+div p {
+    color: orange;
+}
+* {
+    margin: 0;
+}
+a:hover {
+    background-color: yellow;
+}
+a:visited {
+    color: green;
+}
+input {
+    border: 2px solid black;
+}
+input:invalid {
+    border-color: red;
+}
+input:valid {
+    border-color: green;
+}
