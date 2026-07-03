@@ -1,0 +1,32 @@
+h1{
+  font-family: Comic Sans MS;
+  font-size: 20px;
+text-align: center;
+  color: red;
+  background-color: black;
+}
+div > h1{
+  font-family: Sans-Serif;
+  font-size:18px;
+  text-align: center;
+  color:red;
+  background-color: yellow;
+}
+div p {
+  font-weight:500 ;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-family: Segoe UI;
+  
+  
+}
+div p ol li{
+ font-weight: 200;
+ font-family: Trebuchet MS;
+ 
+}
+div p ul li{
+ font-weight: 200;
+ font-family: Trebuchet MS;
+ 
+}
