@@ -1,0 +1,19 @@
+h1 {
+    font-family: Comic Sans MS;
+    text-decoration: underline;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+}
+div p:first-child {
+    background-color: yellow;
+    color: red;
+}
+div p {
+    background-color: blue;
+    color: white;
+}
+div p:nth-child(7) {
+    background-color: green;
+    color: orange;
+}
