@@ -1,0 +1,17 @@
+.box {
+    color: white;
+    background-color: yellow;
+    padding: 20px;
+    margin: 2px;
+    box-shadow: 2px -10px 20px orange inset;
+}
+.card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+div > img {
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+    /*  box-shadow: 2px 2px 5px black;*/
+    filter: drop-shadow(0px 0px 10px yellow );
+}
