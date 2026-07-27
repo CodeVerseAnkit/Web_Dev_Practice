@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Css variables</title>
+        <style>
+            :root {
+                --bg: black;
+                --text: white;
+                --val: 3px;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .dark {
+                background-color: var(--bg, white);
+                color: var(--text, black);
+            }
+            div {
+                --size: 22px;
+                color: yellow;
+                margin: var(--val, 3px);
+                padding: var(--val, 2px);
+                letter-spacing: var(--val, 3px);
+                font-weight: bold;
+                font-size: var(--size, 30px);
+            }
+        </style>
+    </head>
+    <body class="dark">
+        <div>Hello</div>
+        <div>I'm Ankit</div>
+        <div>I'm a FullStack Developer</div>
+    </body>
+</html>
