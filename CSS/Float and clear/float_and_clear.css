@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 200px;
+    /*float: right;*/
+    float: left;
+    margin-right: 10px;
+}
+.boxes {
+    border: 2px solid green;
+    margin: 5px;
+    padding: 2px;
+    /* overflow: auto;*/
+    display: flow-root;
+}
+.box {
+    border: 2px solid red;
+    margin: 2px;
+}
+div:nth-child(4) {
+    /*  clear: left;*/
+    clear: both;
+}
