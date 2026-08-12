@@ -16,7 +16,7 @@ nav {
     background-color: #d08585;
     padding: 5px;
     margin: 5px;
-    width: 100%;
+    width: 100vw;
     height: 50px;
 }
 .more {
@@ -78,4 +78,37 @@ nav .navlist li {
 .logo img:hover {
     transform: scale(1.2);
     box-shadow: 0px 0px 6px black;
+}
+.edit {
+    height: 200;
+    width: 200;
+    background-color: #560000;
+    margin: 10px 4px;
+    padding: 4px;
+    align-items: center;
+}
+.edit video {
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+.edit video:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px white;
+}
+.text {
+    
+   
+   
+    background-color: #560000;
+    margin: 10px 5px 5px 5px;
+    padding: 5px;
+    border: 1px solid#ffffffdf;
+}
+.text h2 {
+    font-family: scale;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 0px 5px black;
 }
