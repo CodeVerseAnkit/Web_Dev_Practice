@@ -13,7 +13,7 @@
     align-content: center;
     gap: 10px 10px;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    /*  flex-direction: column-reverse;*/
     /* flex-flow: column wrap;*/
 }
 .container div {
@@ -22,8 +22,7 @@
     background-color: red;
     font-weight: bold;
     color: white;
-    
-    
+
     font-size: 30px;
     display: flex;
     justify-content: center;
