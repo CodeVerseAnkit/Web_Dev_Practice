@@ -12,18 +12,26 @@
   height: 200px;*/
   /*  overflow: hidden;*/
   display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(2,100px);
+gap: 5px;
+  place-items: center;
+  place-content: center;
 }
 .gallery div {
   border: 2px solid black;
   width: 100px;
   height: 100px;
-  margin: 5px;
+ /* margin: 5px;*/
+  
   text-align: center;
   font-size: bold;
   align-content: center;
 }
 .img1 {
   background-color: yellow;
+  grid-row: 1/2;
+  grid-column: 1/2;
 }
 .img2 {
   background-color: red;
@@ -39,4 +47,7 @@
 }
 .img6 {
   background-color: hwb(28 16% 7%);
+  grid-row: 1/2;
+  grid-column: 1/2;
 }
+
