@@ -1,5 +1,42 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.gallery {
+  /*display: flex;*/
+  border: 2px solid black;
+  margin: 2px;
+  padding: 2px;
+  /*  width: 200px;
+  height: 200px;*/
+  /*  overflow: hidden;*/
+  display: grid;
+}
+.gallery div {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  text-align: center;
+  font-size: bold;
+  align-content: center;
+}
+.img1 {
+  background-color: yellow;
+}
+.img2 {
+  background-color: red;
+}
+.img3 {
+  background-color: limegreen;
+}
+.img4 {
+  background-color: hwb(187 33% 1%);
+}
+.img5 {
+  background-color: hwb(292 51% 1%);
+}
+.img6 {
+  background-color: hwb(28 16% 7%);
 }
