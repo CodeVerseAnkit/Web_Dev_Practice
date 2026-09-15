@@ -20,10 +20,15 @@ header nav ul {
 header div img {
   width: 25px;
   /*  border-radius: 40px;*/
-  margin-left: 8px;
+
+  
 }
 header .UltraEdit {
   margin-left: 5px;
+/*  line-height: 10px;*/
+  
+  
+  
 }
 header div .UltraEditText1 {
   font-weight: bold;
@@ -33,5 +38,13 @@ header div .UltraEditText1 {
 header div .UltraEditText2 {
   font-family: sans-serif;
   font-size: 5px;
+  word-spacing: 2px;
   /* border: 2px solid black;*/
+}
+header nav {
+/*  margin-left: 50px;*/
+}
+header nav ul{
+  font-family: sans-serif;
+  font-size: 10px;
 }
