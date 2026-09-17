@@ -63,8 +63,20 @@ main .txt1 span{
   font-weight: bold;
   
 }
-
-
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+main .txt2{
+  font-family: Arial;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  
+}
 
 
 @media screen and (min-width: 760px) {
@@ -103,6 +115,13 @@ main .txt1 span{
 
   font-size: 60px;
   
+  
+}
+  main .txt2{
+  
+
+  margin: 30px;
+  font-size: 30px;
   
 }
 }
