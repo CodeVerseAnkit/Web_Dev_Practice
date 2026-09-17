@@ -77,6 +77,23 @@ main .txt2{
   font-size: 12px;
   
 }
+main .link{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-family: sans-serif;
+  height: 30px;
+  width: 200px;
+  background-color: #0ac3e4;
+/*  border: 2px solid black;*/
+  color: white;
+  margin-top: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius:3px;
+  text-transform: uppercase;
+
+}
 
 
 @media screen and (min-width: 760px) {
@@ -123,5 +140,17 @@ main .txt1 span{
   margin: 30px;
   font-size: 30px;
   
+}
+  main .link{
+  
+  height: 50px;
+  width: 350px;
+  
+  margin-top: 30px;
+  font-size: 18px;
+  
+  border-radius:5px;
+  
+
 }
 }
