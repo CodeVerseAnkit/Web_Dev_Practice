@@ -16,13 +16,22 @@
   animation-name: line;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function:ease-in-out;
+  animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
+/*  animation: line2 1s infinite ease-in-out alternate-reverse;*/
 }
 @keyframes line {
   from {
+    transform: translate(0,0);
   }
   to {
-    transform: translatex(450px);
+    transform: translate(450px,200px);
+  }
+}
+@keyframes line2 {
+  from {
+  }
+  to {
+    transform: translatey(200px);
   }
 }
