@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border: px solid black;
+/*  filter: invert(1) blur(1px);*/
+  filter: brightness(100%) contrast(150%) saturate(60%) ;
+  
+}
